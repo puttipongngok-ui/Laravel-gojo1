@@ -26,6 +26,12 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
+use App\Http\Controllers\WeightLogController;
+
+Route::resource('weights', WeightLogController::class);
+Route::redirect('/', '/weights');
+
+
 
 Route::get("/gallery", function () {
     $ant = "https://cdn3.movieweb.com/i/article/Oi0Q2edcVVhs4p1UivwyyseezFkHsq/1107:50/Ant-Man-3-Talks-Michael-Douglas-Update.jpg";
