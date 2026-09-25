@@ -8,6 +8,11 @@ use App\Http\Controllers\VehicleController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
+
+Route::get('/about-me', function () {
+    return view('about-me');
+});
+
 Route::resource('license', LicenseController::class);
 Route::resource('user', UserController::class);
 Route::resource('vehicle', VehicleController::class);

@@ -244,8 +244,8 @@
         </div>
 
         <div class="profile-block">
-            <img src="{{ asset('assets/img/kiriphone.png') }}" alt="รูปโปรไฟล์" class="profile-img">
-            <h1 class="h3">พุฒิพงศ์ งอกศิริ</h1>
+            <img src="{{ asset('assets/img/do.jpg') }}" alt="รูปโปรไฟล์" class="profile-img">
+            <h1 class="h3">นายพุฒิพงศ์ งอกสิริ</h1>
             <p class="student-id">รหัสนักศึกษา: 68122420031</p>
         </div>
 
@@ -272,7 +272,7 @@
             </a>
 
             <a href="/weights" class="portfolio-card">
-                <img src="{{ asset('assets/img/icons/weights.jpg') }}" alt="" class="icon-img">
+                <img src="{{ https://cdn.britannica.com/97/289697-050-9A3FE7AF/Lionel-Messi-10-Argentina-Celebrates-FIFA-World-Cup-2026-Group-J-Argentina-Algeria-Kansas-City-Stadium.jpg">
                 <span class="label">EP07 Weight</span>
             </a>
 
