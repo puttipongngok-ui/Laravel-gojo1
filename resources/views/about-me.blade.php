@@ -272,7 +272,7 @@
             </a>
 
             <a href="/weights" class="portfolio-card">
-                <img src="{{ https://cdn.britannica.com/97/289697-050-9A3FE7AF/Lionel-Messi-10-Argentina-Celebrates-FIFA-World-Cup-2026-Group-J-Argentina-Algeria-Kansas-City-Stadium.jpg">
+                <img src="{{ asset('assets/img/icons/weights.jpg') }}" alt="" class="icon-img">
                 <span class="label">EP07 Weight</span>
             </a>
 
